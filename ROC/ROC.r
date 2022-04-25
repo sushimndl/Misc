@@ -50,3 +50,4 @@ YoudenIndex = (ROC2$youden -1)
 
 res=paste("Ceramide_C16", Total, NegEve, PosEve, AUC, CI[1], CI[3], Pval, CutOff, YoudenIndex, Specificity, Sensitivity, Accuracy, Precision, collapse = "\n")
 cat(res, file = "Luminal_TumorVsNormal_Table_ROC.tsv", sep = "\t", fill = FALSE, labels = NULL, append = T, "\n")
+
