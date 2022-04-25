@@ -4,7 +4,6 @@ setwd("/media/csb/NewVolume/susmita/Ujjaini_Animesh/ROC plots")	# set directory
 
 ## load packages
 library("pROC")
-library("verification")
 library("ROCR")
 
 ## load the Data file
