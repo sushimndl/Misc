@@ -5,6 +5,7 @@ setwd("/media/csb/NewVolume/susmita/Ujjaini_Animesh/ROC plots")	# set directory
 ## load packages
 library("pROC")
 library("ROCR")
+library("verification")
 
 ## load the Data file
 data = read.csv("Luminal_TumorVsNormal/Ceramide_C16.tsv", header = T, sep="\t")
